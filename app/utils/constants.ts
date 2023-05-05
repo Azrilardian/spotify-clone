@@ -19,14 +19,6 @@ const MUSIC_GENRES = [
     title: 'Electronic',
     value: 'ELECTRONIC',
   },
-  {
-    title: 'Pop',
-    value: 'POP',
-  },
-  {
-    title: 'Pop',
-    value: 'POP',
-  },
 ]
 
 const LINKS = [

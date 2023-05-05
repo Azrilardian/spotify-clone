@@ -2,8 +2,13 @@
 @tailwind components;
 @tailwind utilities;
 
-/* :root {
-} */
+:root {
+  --main-green: #1db954;
+  --main-black: #121212;
+  --main-gray: #b3b3b3;
+  --main-dark-gray: #535353;
+  --main-darkest-gray: #212121;
+}
 
 /* @media (prefers-color-scheme: dark) {
   :root {
