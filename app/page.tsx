@@ -1,9 +1,14 @@
+import Link from 'next/link'
 import React from 'react'
 
-import GenresOption from '@/components/Genres0ption/GenresOption'
+import GenresOption from '@/components/genres-option/genres-option'
 
-const Discover = () => {
-  return <GenresOption />
+const Dashboard = () => {
+  return (
+    <>
+      <GenresOption />
+    </>
+  )
 }
 
-export default Discover
+export default Dashboard
