@@ -1,12 +1,11 @@
-import Link from 'next/link'
 import React from 'react'
 
-import GenresOption from '@/components/genres-option/genres-option'
+import Discover from '@/components/discover/discover'
 
 const Dashboard = () => {
   return (
     <>
-      <GenresOption />
+      <Discover />
     </>
   )
 }

@@ -8,6 +8,8 @@
   --main-gray: #b3b3b3;
   --main-dark-gray: #535353;
   --main-darkest-gray: #212121;
+
+  font-size: 0.9rem;
 }
 
 @font-face {
@@ -68,6 +70,11 @@
   font-weight: 100;
   font-style: normal;
   font-display: swap;
+}
+
+body {
+  font-family: Gotham, sans-serif;
+  font-weight: 500;
 }
 
 /* @media (prefers-color-scheme: dark) {
