@@ -1,12 +1,16 @@
 const menuItems = [
-  { item: 'Home', icons: 'ic:baseline-home' },
-  { item: 'Cari', icons: 'ic:baseline-search' },
-  { item: 'Koleksi Kamu', icons: 'ic:baseline-local-library' },
+  { name: 'Home', icons: 'ic:baseline-home', link: '/' },
+  { name: 'Cari', icons: 'ic:baseline-search', link: '/search' },
+  {
+    name: 'Koleksi Kamu',
+    icons: 'ic:baseline-local-library',
+    link: '/library',
+  },
 ]
 
 const menuItemsTwo = [
-  { item: 'Buat Playlist', icons: 'material-symbols:add-box' },
-  { item: 'Lagu Yang  Disukai', icons: 'mdi:heart' },
+  { name: 'Buat Playlist', icons: 'material-symbols:add-box', link: '/' },
+  { name: 'Lagu Yang  Disukai', icons: 'mdi:heart', link: '/liked-songs' },
 ]
 
 const playlists = [
