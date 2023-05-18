@@ -6,7 +6,7 @@ import MenuItem from '@/components/menu-item/menu-item'
 
 const PlaylistItems: FC = () => {
   return (
-    <div className="h-max overflow-x-hidden overflow-y-scroll">
+    <div className="h-max overflow-x-hidden overflow-y-hidden hover:overflow-y-scroll">
       <ul className="flex flex-col mt-5 mb-4 space-y-4">
         {playlists.map(({ name, link }, index) => (
           <MenuItem key={index} link={link}>
