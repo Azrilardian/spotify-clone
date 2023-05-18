@@ -7,7 +7,7 @@ import MenuItem from '@/components/menu-item/menu-item'
 const MenuItems: FC = () => {
   return (
     <>
-      <ul className="flex flex-col mt-10 space-y-4">
+      <ul className="flex flex-col mt-10 space-y-4 font-semibold">
         {menuItems.map(({ name, icons, link }, index) => (
           <MenuItem key={index} icons={icons} link={link}>
             {name}
