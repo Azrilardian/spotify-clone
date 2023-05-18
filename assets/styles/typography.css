@@ -2,10 +2,10 @@ h1.h1 {
   @apply font-bold text-8xl text-white tracking-tighter;
 }
 
-h2.h1 {
+h2.h2 {
   @apply font-bold text-4xl text-white tracking-tighter;
 }
 
-h3.h1 {
+h3.h3 {
   @apply font-bold text-2xl text-white tracking-tighter;
 }
