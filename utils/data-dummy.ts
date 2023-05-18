@@ -1,3 +1,5 @@
+import PlaylistCoverExample from '@/assets/images/playlist-cover-example.jpeg'
+
 const menuItems = [
   { name: 'Home', icons: 'ic:baseline-home', link: '/' },
   { name: 'Cari', icons: 'ic:baseline-search', link: '/search' },
@@ -27,4 +29,13 @@ const playlists = [
   { name: 'Im Fine', link: 'https://google.com' },
 ]
 
-export { menuItems, menuItemsTwo, playlists }
+const recentPlaylists = [
+  { name: 'Lagu Teratasmu di 2023', cover: PlaylistCoverExample },
+  { name: 'Hot Hits Indonesia', cover: PlaylistCoverExample },
+  { name: 'Lagu yang Disukai', cover: PlaylistCoverExample },
+  { name: 'Lagu Teratasmu di 2023', cover: PlaylistCoverExample },
+  { name: 'Hot Hits Indonesia', cover: PlaylistCoverExample },
+  { name: 'Lagu yang Disukai', cover: PlaylistCoverExample },
+]
+
+export { menuItems, menuItemsTwo, playlists, recentPlaylists }

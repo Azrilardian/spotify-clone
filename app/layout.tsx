@@ -15,7 +15,7 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex">
         <Sidebar />
-        <main className="basis-10/12 h-screen bg-main-green px-10 pt-14 pb-10">
+        <main className="basis-10/12 h-screen bg-main-darkest-gray px-10 pt-14 pb-10">
           {children}
         </main>
       </body>
