@@ -78,6 +78,25 @@ body {
   overflow: hidden;
 }
 
+/* Firefox */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: var(--main-dark-gray);
+}
+
+/* Chrome, Edge, and Safari */
+*::-webkit-scrollbar {
+  width: 15px;
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--main-darkest-gray);
+}
+
+*::-webkit-scrollbar-thumb {
+  background-color: var(--main-dark-gray);
+}
+
 /* @media (prefers-color-scheme: dark) {
   :root {
   }
