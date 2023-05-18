@@ -38,4 +38,42 @@ const recentPlaylists = [
   { name: 'Lagu yang Disukai', cover: PlaylistCoverExample },
 ]
 
-export { menuItems, menuItemsTwo, playlists, recentPlaylists }
+const recommendedPlaylists = {
+  name: 'Dibuat Untuk Azril Ardian Ifansyah',
+  link: 'https://google.com',
+  playlists: [
+    {
+      name: 'Daily Mix 1',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 2',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 3',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 4',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 5',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      cover: PlaylistCoverExample,
+    },
+  ],
+}
+
+export {
+  menuItems,
+  menuItemsTwo,
+  playlists,
+  recentPlaylists,
+  recommendedPlaylists,
+}
