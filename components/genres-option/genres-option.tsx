@@ -1,8 +1,8 @@
 import type { FC } from 'react'
 import React from 'react'
 
-import { MUSIC_GENRES } from '@/app/utils/constants'
 import Label from '@/components/label/label'
+import { MUSIC_GENRES } from '@/utils/constants'
 
 const GenresOption: FC = () => {
   return (

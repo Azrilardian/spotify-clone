@@ -3,7 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import type { FC } from 'react'
 
-import SpotifyLogo from '@/app/assets/images/spotify-logo.png'
+import SpotifyLogo from '@/assets/images/spotify-logo.png'
 import MenuItems from '@/components/menu-items/menu-items'
 import PlaylistItems from '@/components/playlist-items/playlist-items'
 

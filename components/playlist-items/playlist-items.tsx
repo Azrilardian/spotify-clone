@@ -1,8 +1,8 @@
 import React from 'react'
 import type { FC } from 'react'
 
-import { playlists } from '@/app/utils/data-dummy'
 import MenuItem from '@/components/menu-item/menu-item'
+import { playlists } from '@/utils/data-dummy'
 
 const PlaylistItems: FC = () => {
   return (

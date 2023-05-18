@@ -1,8 +1,8 @@
 import React from 'react'
 import type { FC } from 'react'
 
-import { menuItems, menuItemsTwo } from '@/app/utils/data-dummy'
 import MenuItem from '@/components/menu-item/menu-item'
+import { menuItems, menuItemsTwo } from '@/utils/data-dummy'
 
 const MenuItems: FC = () => {
   return (
