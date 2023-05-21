@@ -9,14 +9,16 @@ import PlaylistItems from '@/components/playlist-items/playlist-items'
 
 const Sidebar: FC = () => {
   return (
-    <aside className="flex flex-col basis-2/12 pl-4 pt-6 h-screen bg-main-black">
+    <aside className="flex flex-col w-1/6 pl-4 pt-6 h-screen bg-main-black fixed top-0 left-0 z-10">
       <div className="sidebar__logo">
         <Link href="/">
           <Image src={SpotifyLogo} alt="Spotify Logo" height={40} />
         </Link>
       </div>
       <MenuItems />
-      <hr className="opacity-40 mt-4" />
+      <div className="pr-4">
+        <hr className="opacity-40 mt-4" />
+      </div>
       <PlaylistItems />
     </aside>
   )

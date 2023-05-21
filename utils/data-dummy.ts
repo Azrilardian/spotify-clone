@@ -44,27 +44,79 @@ const recommendedPlaylists = {
   playlists: [
     {
       name: 'Daily Mix 1',
+      type: 'Mix',
       artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
       cover: PlaylistCoverExample,
     },
     {
       name: 'Daily Mix 2',
+      type: 'Mix',
       artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
       cover: PlaylistCoverExample,
     },
     {
       name: 'Daily Mix 3',
+      type: 'Mix',
       artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
       cover: PlaylistCoverExample,
     },
     {
       name: 'Daily Mix 4',
+      type: 'Mix',
       artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
       cover: PlaylistCoverExample,
     },
     {
       name: 'Daily Mix 5',
+      type: 'Mix',
       artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+  ],
+}
+
+const recentlyPlayPlaylists = {
+  name: 'Baru Saja Diputar',
+  link: 'https://google.com',
+  playlists: [
+    {
+      name: 'Neck Deep',
+      type: 'Artist',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Neck Deep',
+      type: 'Artist',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Neck Deep',
+      type: 'Artist',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 4',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 5',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
       cover: PlaylistCoverExample,
     },
   ],
@@ -76,4 +128,5 @@ export {
   playlists,
   recentPlaylists,
   recommendedPlaylists,
+  recentlyPlayPlaylists,
 }

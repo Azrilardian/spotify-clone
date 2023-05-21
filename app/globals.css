@@ -27,7 +27,7 @@
 body {
   font-family: Gotham, sans-serif;
   font-weight: 500;
-  overflow: hidden;
+  background-color: var(--main-darkest-gray);
 }
 
 /* Firefox */

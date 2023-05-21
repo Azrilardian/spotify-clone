@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { memo } from 'react'
+import type { FC } from 'react'
 
 import RecentPlaylistCard from '@/components/recent-playlist-card/recent-playlist-card'
 import { recentPlaylists } from '@/utils/data-dummy'
 
-const RecentPlaylists = () => {
+const RecentPlaylists: FC = () => {
   return (
     <div className="grid grid-rows-2 grid-flow-col gap-x-6 gap-y-4 mt-6">
       {recentPlaylists.map(({ name, cover }, index) => (
@@ -13,4 +14,4 @@ const RecentPlaylists = () => {
   )
 }
 
-export default RecentPlaylists
+export default memo(RecentPlaylists)

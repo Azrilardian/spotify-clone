@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { memo } from 'react'
 import type { FC } from 'react'
 
 import MenuItem from '@/components/menu-item/menu-item'
@@ -18,4 +18,4 @@ const PlaylistItems: FC = () => {
   )
 }
 
-export default PlaylistItems
+export default memo(PlaylistItems)

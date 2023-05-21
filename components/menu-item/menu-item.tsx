@@ -9,11 +9,18 @@ interface MenuItemsProps {
   children: ReactNode
   icons?: string
   link: string
+  active?: boolean
 }
 
-const MenuItem: FC<MenuItemsProps> = ({ children, icons, link }) => {
+const MenuItem: FC<MenuItemsProps> = ({ children, icons, link, active }) => {
   return (
-    <div className="flex items-center space-x-3 text-white text-opacity-50 hover:text-opacity-100 ease-in duration-150 cursor-pointer">
+    <div
+      className={
+        active
+          ? 'flex items-center space-x-3 text-white ease-in duration-150 cursor-pointer '
+          : 'flex items-center space-x-3 text-white text-opacity-50 hover:text-opacity-100 ease-in duration-150 cursor-pointer'
+      }
+    >
       {icons && <Icon icon={icons} width={26} />}
       <h2>
         <Link href={link}>{children}</Link>
