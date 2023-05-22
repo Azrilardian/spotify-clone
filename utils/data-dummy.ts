@@ -1,4 +1,5 @@
 import PlaylistCoverExample from '@/assets/images/playlist-cover-example.jpeg'
+import ProfileExample from '@/assets/images/profile-example.jpg'
 
 const menuItems = [
   { name: 'Home', icons: 'ic:baseline-home', link: '/' },
@@ -122,6 +123,12 @@ const recentlyPlayPlaylists = {
   ],
 }
 
+const profile = {
+  avatarSource: ProfileExample,
+  name: 'Azril Ardian Ifansyah',
+  description: 'Lorem ipsum dolor sit amet',
+}
+
 export {
   menuItems,
   menuItemsTwo,
@@ -129,4 +136,5 @@ export {
   recentPlaylists,
   recommendedPlaylists,
   recentlyPlayPlaylists,
+  profile,
 }

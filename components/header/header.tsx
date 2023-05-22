@@ -3,12 +3,15 @@
 import { Icon } from '@iconify/react'
 import React, { useEffect, useState } from 'react'
 import '@/components/header/header.css'
+import type { FC } from 'react'
 
+import AvatarProfile from '@/components/avatar-profile/avatar-profile'
 import Button from '@/components/button/button'
+import { profile } from '@/utils/data-dummy'
 
-const Header = () => {
+const Header: FC = () => {
+  const { avatarSource, name, description } = profile
   const [isScroll, setIsScroll] = useState(false)
-  const [clientWindowHeight, setClientWindowHeight] = useState('')
 
   const handleScroll = () => {
     window.scrollY === 0 ? setIsScroll(false) : setIsScroll(true)
@@ -30,9 +33,14 @@ const Header = () => {
           <Icon icon="octicon:chevron-right-24" fontSize={26} />
         </Button>
       </div>
-      <Button type="filled" size="small" color="white">
-        Upgrade
-      </Button>
+      <div className="flex gap-2 items-center justify-center">
+        <Button type="filled" size="small" color="white">
+          Upgrade
+        </Button>
+        <Button type="icon" size="small" color="gray">
+          <AvatarProfile source={avatarSource} alt={description} />
+        </Button>
+      </div>
     </header>
   )
 }
