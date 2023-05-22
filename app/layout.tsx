@@ -1,3 +1,4 @@
+import Header from '@/components/header/header'
 import Sidebar from '@/components/sidebar/sidebar'
 import './globals.css'
 
@@ -15,9 +16,12 @@ export default function RootLayout({
     <html lang="en">
       <body className="flex">
         <Sidebar />
-        <main className="h-screen px-10 pt-14 pb-10 absolute top-0 right-0 w-5/6">
-          {children}
-        </main>
+        <div>
+          <Header />
+          <main className="h-max px-10 pt-10 pb-10 absolute top-20 right-0 w-5/6">
+            {children}
+          </main>
+        </div>
       </body>
     </html>
   )

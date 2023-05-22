@@ -1,0 +1,35 @@
+.button {
+  @apply rounded-full py-4 px-6 text-main-black;
+}
+
+.button.small {
+  @apply py-2 px-4;
+}
+
+.button.large {
+  @apply py-6 px-8;
+}
+
+.button.filled {
+  @apply bg-white;
+}
+
+.button.filled.green {
+  @apply bg-main-green text-black;
+}
+
+.button.outline {
+  @apply border-2 border-white;
+}
+
+.button.outline.green {
+  @apply border-main-green;
+}
+
+.button.icon {
+  @apply p-1;
+}
+
+.button.icon.gray {
+  @apply bg-main-dark-gray;
+}

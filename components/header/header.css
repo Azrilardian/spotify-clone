@@ -1,0 +1,7 @@
+.header {
+  @apply flex items-center justify-between fixed top-0 right-0 py-4 px-10 z-10 w-5/6;
+}
+
+.header.is-scroll {
+  @apply bg-main-black;
+}
