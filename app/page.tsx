@@ -7,7 +7,7 @@ import { recommendedPlaylists, recentlyPlayPlaylists } from '@/utils/data-dummy'
 const Dashboard = () => {
   return (
     <>
-      <h2 className="h2">Selamat Pagi</h2>
+      <h2 className="h2 mb-4">Selamat Pagi</h2>
       <RecentPlaylists />
       <Playlists playlistsData={recommendedPlaylists} />
       <Playlists playlistsData={recentlyPlayPlaylists} />

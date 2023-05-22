@@ -27,6 +27,8 @@ const Header: FC = () => {
     return () => window.removeEventListener('scroll', handleScroll)
   })
 
+  // TODO: Adding scale transition to all header button
+
   return (
     <header className={isScroll ? 'header is-scroll' : 'header'}>
       <div className="flex gap-3 items-center justify-center">

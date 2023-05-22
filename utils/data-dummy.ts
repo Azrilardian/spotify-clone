@@ -7,7 +7,7 @@ const menuItems = [
   {
     name: 'Koleksi Kamu',
     icons: 'ic:baseline-local-library',
-    link: '/library',
+    link: '/collection',
   },
 ]
 
@@ -78,6 +78,20 @@ const recommendedPlaylists = {
       description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
       cover: PlaylistCoverExample,
     },
+    {
+      name: 'Daily Mix 6',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 7',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
   ],
 }
 
@@ -123,6 +137,76 @@ const recentlyPlayPlaylists = {
   ],
 }
 
+const collectionPlaylists = {
+  name: 'Koleksi Kamu',
+  link: 'https://google.com',
+  playlists: [
+    {
+      name: 'Daily Mix 1',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 2',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 3',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 4',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 5',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 6',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 7',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 8',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+    {
+      name: 'Daily Mix 9',
+      type: 'Mix',
+      artistInclude: ['Fiersa Besari', 'Sheila On 7', 'Adhitiya Sofyan'],
+      description: 'Lorem ipsum dolor sit amet dolor lorem ipsum dolor',
+      cover: PlaylistCoverExample,
+    },
+  ],
+}
+
 const profile = {
   avatarSource: ProfileExample,
   name: 'Azril Ardian Ifansyah',
@@ -136,5 +220,6 @@ export {
   recentPlaylists,
   recommendedPlaylists,
   recentlyPlayPlaylists,
+  collectionPlaylists,
   profile,
 }
