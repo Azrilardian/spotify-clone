@@ -1,5 +1,5 @@
 .button {
-  @apply rounded-full py-4 px-6 text-main-black;
+  @apply rounded-full py-4 px-6 text-main-black font-extrabold;
 }
 
 .button.small {

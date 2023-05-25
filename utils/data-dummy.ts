@@ -213,6 +213,12 @@ const profile = {
   description: 'Lorem ipsum dolor sit amet',
 }
 
+const likedSongsPlaylists = {
+  name: 'Lagu yang Disukai',
+  cover: PlaylistCoverExample,
+  totalSongs: 123,
+}
+
 export {
   menuItems,
   menuItemsTwo,
@@ -222,4 +228,5 @@ export {
   recentlyPlayPlaylists,
   collectionPlaylists,
   profile,
+  likedSongsPlaylists,
 }

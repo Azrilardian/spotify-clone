@@ -17,8 +17,8 @@ const MenuItem: FC<MenuItemsProps> = ({ children, icons, link, active }) => {
     <div
       className={
         active
-          ? 'flex items-center space-x-3 text-white ease-in duration-150 cursor-pointer '
-          : 'flex items-center space-x-3 text-white text-opacity-50 hover:text-opacity-100 ease-in duration-150 cursor-pointer'
+          ? 'flex items-center space-x-3 text-white ease-in duration-150 cursor-pointer font-semibold'
+          : 'flex items-center space-x-3 text-white text-opacity-50 hover:text-opacity-100 ease-in duration-150 cursor-pointer font-semibold'
       }
     >
       {icons && <Icon icon={icons} width={26} />}

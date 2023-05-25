@@ -26,7 +26,6 @@ interface RecommendedPlaylistsProps {
   showAll?: boolean
 }
 
-// TODO: change grid to 6
 const Playlists: FC<RecommendedPlaylistsProps> = ({
   playlistsData,
   filterOption,

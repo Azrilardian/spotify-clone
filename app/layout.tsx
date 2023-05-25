@@ -1,3 +1,5 @@
+import localFont from 'next/font/local'
+
 import Header from '@/components/header/header'
 import Sidebar from '@/components/sidebar/sidebar'
 import './globals.css'
@@ -7,6 +9,21 @@ export const metadata = {
   description: 'Spotify clone app build from Next JS',
 }
 
+const gothamFont = localFont({
+  src: [
+    {
+      path: '../assets/fonts/Gotham-Book.woff2',
+      weight: '400',
+    },
+    {
+      path: '../assets/fonts/Gotham-Bold.woff2',
+      weight: '800',
+    },
+  ],
+  display: 'swap',
+  variable: '--font-gotham',
+})
+
 export default function RootLayout({
   children,
 }: {
@@ -14,13 +31,11 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
-      <body className="flex">
+      <body className={`${gothamFont.variable} font-gotham font-bold flex`}>
         <Sidebar />
         <div>
           <Header />
-          <main className="h-max px-10 pt-10 pb-10 absolute top-20 right-0 w-5/6">
-            {children}
-          </main>
+          <main>{children}</main>
         </div>
       </body>
     </html>

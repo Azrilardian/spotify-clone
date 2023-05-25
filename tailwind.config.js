@@ -15,7 +15,7 @@ module.exports = {
         'main-darkest-gray': '#212121',
       },
       fontFamily: {
-        primary: ['Gotham', 'sans-serif'],
+        gotham: ['var(--font-gotham)'],
       },
     },
   },

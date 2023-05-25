@@ -12,7 +12,7 @@ const MenuItems: FC = () => {
 
   return (
     <>
-      <ul className="flex flex-col mt-10 space-y-4 font-semibold">
+      <ul className="flex flex-col mt-10 space-y-4 font-bold">
         {menuItems.map(({ name, icons, link }, index) => (
           <MenuItem
             key={index}
@@ -24,7 +24,7 @@ const MenuItems: FC = () => {
           </MenuItem>
         ))}
       </ul>
-      <ul className="flex flex-col mt-10 space-y-4">
+      <ul className="flex flex-col mt-10 space-y-4 font-bold">
         {menuItemsTwo.map(({ name, icons, link }, index) => (
           <MenuItem
             key={index}
